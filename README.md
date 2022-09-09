@@ -2,6 +2,10 @@
 
 Tool to decrypt/encrypt JoJo ASBR PC save files
 
+# Installing
+
+Install the [.NET 6.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime) (for "console apps") before using this program.
+
 # Usage
 
 Use the `help` command for complete usage.
