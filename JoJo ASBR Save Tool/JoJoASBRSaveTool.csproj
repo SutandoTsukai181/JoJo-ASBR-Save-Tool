@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>JoJoASBRSaveTool</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>SutandoTsukai181</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="hash_table.bin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="hash_table.bin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+  </ItemGroup>
+
+</Project>
